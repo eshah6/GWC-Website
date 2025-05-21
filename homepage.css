@@ -1,0 +1,112 @@
+button {
+    border: solid;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+	margin-left:50px;
+ }
+ 
+ 
+ body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #d7f8f4, #fef3e8);
+    color: #333;
+ }
+ 
+ 
+ .btn1 {
+    background-color: white;
+ }
+ 
+ 
+nav {
+    background: #10a097;
+    padding: 15px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+ }
+ 
+ 
+ .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+ }
+ nav a {
+    text-decoration: none;
+    color: #f7f4ea;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+		 vertical-align: middle;
+ }
+ 
+ 
+ nav a:hover {
+    color: #f3904a;
+ }
+
+ 
+ header {
+    margin-top: 50px;
+ }
+ 
+ 
+ h1 {
+    font-size: 50px;
+    color: #cf7a3e;
+    margin-bottom: 0;
+    font-family: "Borel", serif;
+ }
+ 
+ 
+ h2 {
+    font-size: 28px;
+    color: #003046;
+    font-family: "Oswald", serif;
+    margin-top: 0;
+ }
+ 
+ 
+ .image-placeholder {
+    max-width: 35%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    border: 2px dashed #bbb;
+ }
+
+ p {
+    font-family: "Roboto", serif;
+ }
+ 
+ .club-description {
+    font-size: 18px;
+    color: #555;
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.5;
+ }
+
+ footer {
+    margin-top: auto; 
+    background: linear-gradient(to right, #43d6b9, #10a097);
+    padding: 10px;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+ }
+
+ .small-image {
+    width: 100px; /* Set a fixed width for the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add some space between the paragraph and the image */
+	float:center;
+	vertical-align:center;
+}
